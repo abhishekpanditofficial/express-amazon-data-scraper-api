@@ -10,7 +10,8 @@ const PORT= process.env.PORT || 3000;
 const generateScraperUrl = (apiKey) => `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
 app.use(express.json());
 
-
+//https://rapidapi.com/ap8335235@gmail.com/api/ap-amazon-scraper
+//https://amazon-data-scraper-api-rapid.herokuapp.com/
 
 app.get('/',(req,res) =>{
     res.send('Welcome to Amazon Scraper API');
